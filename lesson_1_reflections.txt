@@ -1,0 +1,29 @@
+-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+I was able to compare only the lines that had changed.
+I didn't have to scan through many lines of code.
+
+-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You can see where you tend to make mistakes.
+You can reuse old code.
+You can see at what point bugs were introduced.
+
+-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros: You can choose logical saving points. Can easily see which features were changed when. 
+Cons: Subject to user error.  
+
+-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is designed to not just back up files but compare the changes made over time.
+By saving multiple files at once you can see not only the direct changes to a file but also the changes to other files that influence it.
+Google docs is meant more as a backup system and if something hasn't changed you don't need to save a new copy of it.
+
+-How can you use the commands git log and git diff to view the history of files?
+Use git log to get a history of commits and their ID numbers and then use git diff to compare two versions.
+
+-How might using version control make you more confident to make changes that could break something?
+With version control, you know you can go back to a working version if you break something
+and can more easily track down the cause of the problem by examining incremental changes.
+
+-Now that you have your workspace set up, what do you want to try using Git for?
+I want to use Git to work on adapting scripts for the Roll20 API.
+
+
