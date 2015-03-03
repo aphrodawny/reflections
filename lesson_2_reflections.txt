@@ -11,4 +11,6 @@ It offers value in that it lets you control which files are committed without ha
 You can compare the staged doc to the most recent commit to see exactly what changes have been made. 
 If there haven't been enough made for a commit to make sense you can compare the working copy to the staged copy after making additional changes.
 
-
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    Branches would help whn adding experimental features or trying something you aren't sure you will want to keep.
+    They let you make changes to the code while retaining a clean copy that you can easily return to and work on independently.
