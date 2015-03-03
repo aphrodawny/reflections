@@ -13,4 +13,7 @@
 -What is the benefit of having a copy of the last known state of the remote stored locally?
     For the sake of comparing changes made since last accessing the remote.
 
+-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+    By emailing copies of files or working off of a shared file on a server.  
+    Working on your own copy would be easier but keeping track of changes, contributions, and conflicts would be harder.
 -
