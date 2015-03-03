@@ -2,4 +2,13 @@
 You add a .git folder which will keep track of meta data for tracking versions.
 You need to do it so that there is somewhere to store your commit information.
 
--
+-How is the staging area different from the working directory and the repository? What value do you think it offers?
+it's different from the working directory in that the files are marked for commit where not all the files in the working directory have to be .
+It's different from the repository because the files haven't been committed yet.
+It offers value in that it lets you control which files are committed without haveing to create a deperate directory.
+
+-How can you use the staging area to make sure you have one commit per logical change?
+You can compare the staged doc to the most recent commit to see exactly what changes have been made. 
+If there haven't been enough made for a commit to make sense you can compare the working copy to the staged copy after making additional changes.
+
+
